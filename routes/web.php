@@ -14,3 +14,15 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/main', function () {
+    return view('app');
+});
+
+Route::get('/login', function () {
+    return view('pages.login');
+});
+
+Route::get('/student/dashboard', function () {
+    return view('pages.student.dashboard');
+});
