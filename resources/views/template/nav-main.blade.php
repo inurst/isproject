@@ -19,7 +19,7 @@
 
       <li class="dropdown dropdown-user">
         <a class="dropdown-toggle" data-toggle="dropdown">
-          <img src="/assets/images/image.png" alt="">
+          <img src="{{ URL::asset('assets/images/image.png') }}" alt="">
           <span>เนิส</span>
           <i class="caret"></i>
         </a>

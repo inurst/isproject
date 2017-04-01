@@ -103,12 +103,20 @@
 						</div>
 
 						<div class="form-group">
+							<select name="select" class="form-control">
+								<option value="opt1">-- กรุณาเลือกตำแหน่ง --</option>
+								<option value="opt2">นักศึกษา</option>
+								<option value="opt3">อาจารย์ที่ปรึกษา</option>
+								<option value="opt4">คณะกรรมการ</option>
+								<option value="opt5">ผู้ดูแลระบบ</option>
+							</select>
+						</div>
+
+						<div class="form-group">
 							<button type="submit" class="btn bg-pink-400 btn-block">เข้าสู่ระบบ <i class="icon-circle-right2 position-right"></i></button>
 						</div>
 
-						<div class="text-center">
-							<a href="login_password_recover.html">ลืมรหัสผ่าน?</a>
-						</div>
+
 					</div>
 				</form>
 				<!-- /simple login form -->
